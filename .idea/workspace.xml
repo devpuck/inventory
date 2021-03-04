@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d07a8a56-f750-4231-a03d-759d375a54af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../keystone/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/src/main/java/com/zz/KeystoneApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keystone/src/test/java/com/zz/KeystoneApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out-storage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out-storage/app-log/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out-storage/app-log/log_total.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zz-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zz-sdk/src/main/java/com/zz/sdk/login/LoginManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zz-sdk/src/test/java/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-api/src/main/java/com/wms/api/config/ConfigSpecOutWarehouseQueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-api/src/main/java/com/wms/api/config/ConfigSpecOutWarehouseQueryParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-api/src/main/java/com/wms/api/config/ConfigSpecOutWarehouseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-api/src/main/java/com/wms/api/config/ConfigSpecOutWarehouseVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/controller/ConfigSpecOutWarehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/controller/ConfigSpecOutWarehouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/mapper/config/ConfigSpecOutWarehouseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/mapper/config/ConfigSpecOutWarehouseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/model/bo/config/ConfigSpecOutWarehouseBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/model/bo/config/ConfigSpecOutWarehouseBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/model/entity/ConfigSpecOutWarehouseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/model/entity/ConfigSpecOutWarehouseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/ConfigSpecOutWarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/ConfigSpecOutWarehouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/OutAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/OutAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/impl/ConfigSpecOutWarehouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/impl/ConfigSpecOutWarehouseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/impl/OutAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/java/com/wms/service/impl/OutAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/resources/mapper/config/ConfigSpecOutWarehouseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out-storage/wms-out-storage-biz/src/main/resources/mapper/config/ConfigSpecOutWarehouseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zz-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zz-core/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IntelliJConfiguration">
+    <option name="PROPERTY_FILES">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="REMOVE_NBSP" value="true" />
+    <option name="CREATE_NEW_JSP" value="true" />
+    <option name="KEY_RESOLUTION_TYPE" value="Use all words in label" />
+    <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
+    <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
+    <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\Users\EDZ\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pHfIknJC0CCymvamWddBWm5gos" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608103774886" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../昌飞项目/20200825_v1.0.0迭代/code/avic-device" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.SpringBootPlusGenerator">
+    <configuration name="SpringBootPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wms.util.SpringBootPlusGenerator" />
+      <module name="wms-inventory-biz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wms-__rootArtifactId__-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XacAppliction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wms-__rootArtifactId__-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xac.XacApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootPlusGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d07a8a56-f750-4231-a03d-759d375a54af" name="Default Changelist" comment="" />
+      <created>1607932744465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607932744465</updated>
+      <workItem from="1607932748255" duration="4054000" />
+      <workItem from="1607937175992" duration="1382000" />
+      <workItem from="1607939413548" duration="1221000" />
+      <workItem from="1607995672760" duration="7949000" />
+      <workItem from="1608013560036" duration="955000" />
+      <workItem from="1608099615003" duration="4189000" />
+      <workItem from="1608110046926" duration="596000" />
+    </task>
+    <task id="LOCAL-00001" summary="脚手架代码">
+      <created>1607935825821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607935825821</updated>
+    </task>
+    <task id="LOCAL-00002" summary="脚手架代码版本号改成1.2">
+      <created>1608004549878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608004549878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20346000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="脚手架代码" />
+    <MESSAGE value="脚手架代码版本号改成1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="脚手架代码版本号改成1.2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="146" key="GridCell.Tab.0.bottom" timestamp="1614739866768">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="146" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1614739866768" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.23.1440.840/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614603844763" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1018@1440.23.1920.1018" timestamp="1614597850936" />
+    <state width="1398" height="146" key="GridCell.Tab.0.center" timestamp="1614739866766">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="146" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1614739866766" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.23.1440.840/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614603844757" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1018@1440.23.1920.1018" timestamp="1614597850935" />
+    <state width="1398" height="146" key="GridCell.Tab.0.left" timestamp="1614739866764">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="146" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1614739866764" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.23.1440.840/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614603844750" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1018@1440.23.1920.1018" timestamp="1614597850933" />
+    <state width="1398" height="146" key="GridCell.Tab.0.right" timestamp="1614739866767">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="146" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1614739866767" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.23.1440.840/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614603844758" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1018@1440.23.1920.1018" timestamp="1614597850935" />
+    <state x="1909" y="190" key="SettingsEditor" timestamp="1614848083374">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="190" key="SettingsEditor/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614848083374" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/inventory.iml" filepath="$PROJECT_DIR$/inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wms-inventory-api/wms-inventory-api.iml" filepath="$PROJECT_DIR$/wms-inventory-api/wms-inventory-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wms-inventory-biz/wms-inventory-biz.iml" filepath="$PROJECT_DIR$/wms-inventory-biz/wms-inventory-biz.iml" />
+    </modules>
+  </component>
+</project>

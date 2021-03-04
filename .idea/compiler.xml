@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wms-inventory-api" />
+        <module name="wms-__rootArtifactId__-api" />
+        <module name="wms-inventory-biz" />
+        <module name="wms-__rootArtifactId__-biz" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="inventory" target="1.8" />
+      <module name="wms-__rootArtifactId__-api" target="1.8" />
+      <module name="wms-__rootArtifactId__-biz" target="1.8" />
+      <module name="wms-inventory-api" target="1.8" />
+      <module name="wms-inventory-biz" target="1.8" />
+      <module name="xac-shell" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wms-__rootArtifactId__-api" options="-parameters" />
+      <module name="wms-__rootArtifactId__-biz" options="-parameters" />
+      <module name="wms-inventory-api" options="-parameters" />
+      <module name="wms-inventory-biz" options="-parameters" />
+    </option>
+  </component>
+</project>

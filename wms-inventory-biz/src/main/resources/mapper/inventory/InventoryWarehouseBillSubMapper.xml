@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wms.mapper.inventory.InventoryWarehouseBillSubMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wms.model.entity.InventoryWarehouseBillSubEntity">
+        <id column="ID" property="id" />
+    <result column="CREATED_BY" property="createdBy" />
+    <result column="CREATED_DATE" property="createdDate" />
+    <result column="LAST_UPDATED_BY" property="lastUpdatedBy" />
+    <result column="LAST_UPDATED_DATE" property="lastUpdatedDate" />
+    <result column="DELETED_BY" property="deletedBy" />
+    <result column="DELETED_DATE" property="deletedDate" />
+    <result column="IS_DELETED" property="isDeleted" />
+        <result column="ACCOUNT_ID" property="accountId" />
+        <result column="BILL_CODE" property="billCode" />
+        <result column="CHANGE_QUANTITY" property="changeQuantity" />
+        <result column="CHANGE_TYPE" property="changeType" />
+        <result column="INVENTORY_PERSON" property="inventoryPerson" />
+        <result column="INVENTORY_TIME" property="inventoryTime" />
+    </resultMap>
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BoResultMap" type="com.wms.model.bo.inventory.InventoryWarehouseBillSubBo">
+        <id column="ID" property="id" />
+        <result column="CREATED_BY" property="createdBy" />
+        <result column="CREATED_DATE" property="createdDate" />
+        <result column="LAST_UPDATED_BY" property="lastUpdatedBy" />
+        <result column="LAST_UPDATED_DATE" property="lastUpdatedDate" />
+        <result column="DELETED_BY" property="deletedBy" />
+        <result column="DELETED_DATE" property="deletedDate" />
+        <result column="IS_DELETED" property="isDeleted" />
+                <result column="ACCOUNT_ID" property="accountId" />
+                <result column="BILL_CODE" property="billCode" />
+                <result column="CHANGE_QUANTITY" property="changeQuantity" />
+                <result column="CHANGE_TYPE" property="changeType" />
+                <result column="INVENTORY_PERSON" property="inventoryPerson" />
+                <result column="INVENTORY_TIME" property="inventoryTime" />
+        </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CREATED_BY,
+        CREATED_DATE,
+        LAST_UPDATED_BY,
+        LAST_UPDATED_DATE,
+        DELETED_BY,
+        DELETED_DATE,
+        IS_DELETED,
+        ID, ACCOUNT_ID, BILL_CODE, CHANGE_QUANTITY, CHANGE_TYPE, INVENTORY_PERSON, INVENTORY_TIME
+    </sql>
+    <delete id="deleteInventoryWarehouseSubByCode">
+        update WMS_INVENTORY_WAREHOUSE_BILL_SUB set IS_DELETED = 0 where BILL_CODE = #{billCode} and IS_DELETED =1
+    </delete>
+
+    <select id="getInventoryWarehouseBillSubById" resultMap="BoResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from WMS_INVENTORY_WAREHOUSE_BILL_SUB where id = #{id}
+    </select>
+
+    <select id="getInventoryWarehouseBillSubPageList" resultMap="BoResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from WMS_INVENTORY_WAREHOUSE_BILL_SUB
+    </select>
+
+</mapper>
